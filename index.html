@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guess Game</title>
+    <link  href="style.css" rel="stylesheet">
+</head>
+<body>
+    <center>
+        <img src="guess1.jpg" id="top">
+        <h2 id="heading"> <u> Rules of the Game </u> </h2>
+    </center>
+    <!-- <input type="radio" name="gender" value="male"> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other -->
+    <center>
+    <table border="0.5px">
+    <tr>
+    <td> 
+    <p id="heading"> <input type="radio" name="level" value="l1" id = "l1" onclick="func1();"> <b>Level 1</b>
+         <br><br> Total Maximum Chances = 3 <br><br>
+         Range to guess the number = 1 -to- 5 </p>
+    </td>
+    
+<td id="Space"></td>
+
+<td>   
+    <p id="heading"> <input type="radio" name="level" value="l2" id="l2" onclick="func2();"> <b>Level 2</b>
+         <br><br> Total Maximum Chances = 2 <br><br>
+         Range to guess the number = 1 -to- 10 </p>
+    </td>
+
+    <td id="Space"></td>
+    <td>
+    <p id="heading"> <input type="radio" name="level" value="l3" id="l3" onclick="func3();"> <b>Level 3</b> <br><br>
+         Total Maximum Chances = 1 <br><br>
+          Range to guess the number = 1 -to- 15 </p>
+    </td>
+    </table> </center>
+       
+    <center>
+    
+          <br><br> 
+          <input type="text" id="aa" placeholder="TYPE YOUR GUESS HERE" >
+            <br><br>
+          <input type="button" value="Check Your Guess" id="b" onclick="func4();">
+        
+        
+        </center>
+    
+</body>
+
+<script src="jsfile.js"></script>
+</html>
